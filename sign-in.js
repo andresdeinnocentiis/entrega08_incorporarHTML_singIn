@@ -23,7 +23,7 @@ function crearUser() {
                 resultado.innerHTML = "Solicitud enviada correctamente";
                 resultado.classList.add("green")
                 resultado.classList.remove("red")
-                
+                form.reset()
             }
 
     });
